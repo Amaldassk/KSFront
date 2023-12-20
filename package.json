@@ -20,7 +20,7 @@
   },
   "scripts": {
     "cleanup": "rmdir /q /s .parcel-cache dist || echo 'no cached files'",
-    "start": "npm run cleanup && parcel index.htm",
+    "start": "parcel index.htm",
     "build": "parcel build index.htm"
   },
   "devDependencies": {
