@@ -17,8 +17,8 @@
     "redux-thunk": "^2.4.2"
   },
   "scripts": {
-    "start": "parcel index.htm --max_old_space_size=4096 start",
-    "build": "parcel build index.htm --max_old_space_size=4096 build"
+    "start": "parcel index.htm --max_old_space_size=3395 start",
+    "build": "parcel build index.htm --max_old_space_size=3395 build"
   },
   "devDependencies": {
     "buffer": "^6.0.3",
