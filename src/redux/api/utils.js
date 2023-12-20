@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = process.env.REACT_APP_API_URL ?? 'https://ksback.onrender.com/';
+const BASE_URL = process.env.REACT_APP_API_URL ?? 'http://localhost:3300/';
 const ADMIN_URL = `${BASE_URL}/admin`;
 
 const authInterceptor = (req) => {
