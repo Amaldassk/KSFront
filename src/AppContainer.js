@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import AppRouter from './AppRouter';
 import { Provider } from 'react-redux';
 import appStore from './redux/appStore';
@@ -41,7 +41,7 @@ const AppContainer = () => {
   return (
     <>
       <Provider store={store}>
-        <Helmet>Title</Helmet>
+        {/* <Helmet>Title</Helmet> */}
         <AppRouter/>
       </Provider>
     </>

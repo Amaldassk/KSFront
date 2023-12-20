@@ -10,7 +10,7 @@ import { IoPricetagOutline } from "react-icons/io5";
 import { useDispatch } from "react-redux";
 import {Controller, useForm} from 'react-hook-form';
 import ButtonLoadingSpinner from "../loader/ButtonLoadingSpinner";
-import Select from "react-select";
+// import Select from "react-select";
 import { updateProduct } from "../../redux/actions/productActions";
 
 const UpdateProductModal = ({isOpen, onClose, productData, productId}) => {
