@@ -19,7 +19,6 @@
     "redux-thunk": "^2.4.2"
   },
   "scripts": {
-    "cleanup": "rmdir /q /s .parcel-cache dist || echo 'no cached files'",
     "start": "parcel index.htm",
     "build": "parcel build index.htm"
   },
