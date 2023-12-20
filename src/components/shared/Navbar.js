@@ -5,7 +5,7 @@ import logoWhite from '../../assets/logo-ks-white.png'
 import { Link } from 'react-router-dom'
 import { logoutUser } from '../../redux/slice/authSlice';
 import {Transition} from '@headlessui/react';
-//import useHandleOutsideClick from '../../hooks/useHandleOutsideClick';
+import useHandleOutsideClick from '../../hooks/useHandleOutsideClick';
 import { ImLocation2 } from "react-icons/im";
 import { IoIosMail } from "react-icons/io";
 import { MdPhoneEnabled } from "react-icons/md";
@@ -33,7 +33,7 @@ const Navbar = ({userData}) => {
     setShowDropdown(!showDropdown);
   }
 
-  //useHandleOutsideClick(dropdownRef,()=>setShowDropdown(false));
+  useHandleOutsideClick(dropdownRef,()=>setShowDropdown(false));
 
   return (
     <nav className={`fixed w-full font-ksN top-0 z-20 flex justify-center flex-wrap md:items-center md:justify-between ${headerFixed ? 'bg-[rgb(255,255,255)]/95 shadow-lg' : 'bg-transparent'}`}>

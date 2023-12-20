@@ -7,9 +7,9 @@ const useHandleOutsideClick = (ref, onClickOutside) => {
               onClickOutside();
             }
           }
-        //document.addEventListener("click", handleOutsideClick);
+        document.addEventListener("click", handleOutsideClick);
         return()=>{
-            //document.removeEventListener("click", handleOutsideClick);
+            document.removeEventListener("click", handleOutsideClick);
         }
     },[ref, onClickOutside]);
 }
